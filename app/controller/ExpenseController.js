@@ -51,7 +51,6 @@ ExpenseController.update=(req,res)=>{
             res.json(expense)
             })
             .catch((error)=>{
-               console.log(error)
             res.json(error)
             })
      }
